@@ -1,0 +1,37 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+}
+.container {
+  padding: 50px 15px;
+}
+.card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-title {
+  color: #ffffff;
+}
+.card-text {
+  color: #cccccc;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-img-top {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: -25px auto 10px; /* Adjust position */
+  display: block;
+}
+.section-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
